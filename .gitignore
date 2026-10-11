@@ -1,0 +1,35 @@
+tmp
+
+# --- Financial data must never be committed -------------------------------
+# Workbooks, exports, statements, receipts, screenshots, row dumps.
+*.xlsx
+*.xlsm
+*.xls
+*.xlsb
+*.ods
+*.csv
+*.tsv
+*.qbw
+*.qbb
+*.iif
+*.ofx
+*.qfx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.heic
+*.json
+_backup/
+data/
+private/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Exception: fictional example screenshots for skill READMEs only
+!skills/*/images/*.png
